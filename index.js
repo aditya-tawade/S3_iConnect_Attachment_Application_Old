@@ -10,6 +10,7 @@ const s3 = new AWS.S3({
 
 const fileName = "vishalsir.html";
 const folderName = "TicketID";
+const URL = "https://www.google.com";
 
 var params = {
   Bucket: "iconnect-aditya" /* required */,
